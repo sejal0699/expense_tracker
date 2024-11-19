@@ -1,0 +1,22 @@
+export default {
+    black: '#333333',
+    red: '#ff0000',
+    gray: '#F6F9FA',
+    textGrey: '#5b5b5b',
+    midGrey: '#555555',
+    white: '#ffffff',
+    blue: '#007BFF',
+    alertRed: '#F44336',
+    strongBlue: '#2A7BBB',
+    lightGrey: '#ccc',
+    overlayColor: 'rgba(0,0,0,0.5)',
+    pink: '#EE28A9',
+    grey: '#4B5879',
+    skyblue: '#E6E6FA',
+    lightGray: '#85929C',
+    darkblue:'#0084ff',
+    Gray:'#f0f0f0',
+    lightBlue:'#E6EDF3',
+    green:'#017B6B',
+    lightGreen:'#DCF7C5'
+  };
