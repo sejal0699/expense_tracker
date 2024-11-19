@@ -19,14 +19,16 @@ const InsightsScreen = () => {
     const existingCategory = totalExpense.find(item => item.category === expense.category);
     if (existingCategory) {
       existingCategory.amount += parseFloat(expense.amount);
-      setTotal(existingCategory);
+     console.log(existingCategory);
+     
     } else {
       totalExpense.push({ category: expense.category, amount: parseFloat(expense.amount) });
+      console.log(existingCategory);
+      
     }
   });
 
   const chartData = totalExpense.map(item => ({
-   
     value: item.amount,
     color: '#7F3DFF',  
     text: item.expenseoptions,  

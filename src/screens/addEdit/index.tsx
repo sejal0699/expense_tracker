@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import {
   View,
   TextInput,
-  Button,
-  StyleSheet,
   Image,
   TouchableOpacity,
   Text,
@@ -26,18 +24,9 @@ const AddEditScreen = ({navigation}) => {
   const [expenseoptions, setExpenseOptions] = useState('');
   const dispatch = useDispatch();
 
-  // const hideDatePicker = () => {
-  //   setDatePickerVisibility(false);
-  // };
-
-  const showDatePicker = () => {
-    setDatePickerVisibility(true);
-  };
-
   const hideDatePicker = () => {
     setDatePickerVisibility(false);
   };
-
 
   const handleConfirm = (date) => {
     const formattedDate = `${date.getDate()}/${

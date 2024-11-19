@@ -1,13 +1,9 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, TouchableOpacity } from 'react-native';
-
-
 import { ScreenNames } from '../screenNames';
 import { Icons } from '../../assets';
 import { useNavigation } from '@react-navigation/native';
-
-import { colors } from '../../themes';
 import Home from '../../screens/home';
 import Transaction from '../../screens/transaction';
 import Budget from '../../screens/budget';
